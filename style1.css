@@ -1,0 +1,37 @@
+body{
+    background:url(background1.jpg);
+    background-size: cover;
+    background-position:center;
+    }
+.btn{
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block; 
+}
+.login-box{
+    background: transparent;
+    max-width: 500px;
+    padding: 30px;
+    color:black;
+    font-family: cursive;
+    margin-left: 550px;
+}
+.login-left{
+    background:deepskyblue ;
+    padding:30px;
+}
+.login-right{
+    background:black;
+    padding:30px;
+}
+.form-control{
+    background-color: transparent !important;
+}
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+input[type=password] {
+  border: 2px solid black;
+  border-radius: 4px;
+}
